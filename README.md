@@ -13,9 +13,9 @@ authentication, example resource and common middlewares.
    line to move it to the `sei/projects/` directory.
 3. Rename the directory from mongoose-express-liquid-boilerplate -> your-app-name.
 4. Empty [`README.md`](README.md) and fill with your own content.
-5. Move into the new project and `git init`.
+5. Move into the new project and `git init` if not already a repository.
 6. Run `touch .env .gitignore` in the main project directory(same level as `server.js`)
-7. Run `echo node_modules > .gitignore` in the main project directory.
+7. Add `node_modules` and `.env` to your `.gitignore`
 8. Replace all example models, controllers, and views with your app's resources. Auth is provided for you already.
 9. Install dependencies with `npm install`.
 10. Ensure that you have `nodemon` installed by running `npm install -g nodemon`.
