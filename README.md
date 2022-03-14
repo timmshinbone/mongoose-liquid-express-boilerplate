@@ -12,16 +12,17 @@ authentication, example resource and common middlewares.
    folder) -- **NOTE:** if the folder was already unzipped, use the `mv` command
    line to move it to the `sei/projects/` directory.
 3. Rename the directory from mongoose-express-liquid-boilerplate -> your-app-name.
-4. Empty [`README.md`](README.md) and fill with your own content.
-5. Move into the new project and `git init` if not already a repository.
-6. Run `touch .env .gitignore` in the main project directory(same level as `server.js`)
-7. Add `node_modules` and `.env` to your `.gitignore`
-8. Replace all example models, controllers, and views with your app's resources. Auth is provided for you already.
-9. Install dependencies with `npm install`.
-10. Ensure that you have `nodemon` installed by running `npm install -g nodemon`.
-11. In your `.env` add variables for `PORT` & `DATABASE_URL` & `SECRET`. This app uses mongoDb and Session authentication, so your `DATABASE_URL` will need to be your local mongo(see the full CRUD app's .env)
-12. Ensure the API is functioning properly by running `npm start`.
-13. Once everything is working, make an initial commit.
+4. Find and Replace any mention of `mongoose-express-liquid-boilerplate` especially the one in `package.json`
+5. Empty [`README.md`](README.md) and fill with your own content.
+6. Move into the new project and `git init` if not already a repository.
+7. Run `touch .env .gitignore` in the main project directory(same level as `server.js`)
+8. Add `node_modules` and `.env` to your `.gitignore`
+9. Replace all example models, controllers, and views with your app's resources. Auth is provided for you already.
+10. Install dependencies with `npm install`.
+11. Ensure that you have `nodemon` installed by running `npm install -g nodemon`.
+12. In your `.env` add variables for `PORT` & `DATABASE_URL` & `SECRET`. This app uses mongoDb and Session authentication, so your `DATABASE_URL` will need to be your local mongo(see the full CRUD app's .env)
+13. Ensure the API is functioning properly by running `npm start`.
+14. Once everything is working, make an initial commit.
 
 ## Structure
 

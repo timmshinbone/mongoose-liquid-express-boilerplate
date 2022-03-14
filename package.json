@@ -1,5 +1,5 @@
 {
-  "name": "mongoose-liquid-auth-boilerplate",
+  "name": "mongoose-express-liquid-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
