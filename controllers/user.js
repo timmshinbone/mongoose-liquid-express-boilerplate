@@ -61,7 +61,6 @@ router.post('/login', async (req, res) => {
 				if (result) {
 					console.log('the user', user);
 					
-					// then we'll need to use the session object
 					// store some properties in the session
 					req.session.username = user.username
 					req.session.loggedIn = true
